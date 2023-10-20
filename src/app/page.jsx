@@ -1,15 +1,11 @@
-import Image from 'next/image';
-import styles from './page.module.css';
+import Cards from '../../components/cards/cards';
+import Header from '../../components/header/Header';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started TAKE MY TAIL
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-      </div>
-    </main>
+    <div>
+      <Header />
+      <Cards />
+    </div>
   );
 }
