@@ -6,7 +6,7 @@ const Header = () => {
       <div>logo</div>
       <ul>
         <li>about</li>
-        {/* <li>contact</li> */}
+        <li>contact</li>
         <li>for us</li>
         <li>dogs</li>
       </ul>
