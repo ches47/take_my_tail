@@ -1,20 +1,20 @@
 // import { beagle, frenchbulldog, jackrussel, labrador } from '../assets/dogs';
-import beagleImage from '../assets/dogs/beagle.jpg';
-import frenchbulldogImage from '../assets/dogs/frenchbulldog.jpg';
-import jackrusselImage from '../assets/dogs/jackrussel.jpg';
-import labradorImage from '../assets/dogs/labrador.jpg';
+import beagle from '../assets/dogs/beagle.jpg';
+import frenchbulldog from '../assets/dogs/frenchbulldog.jpg';
+import jackrussel from '../assets/dogs/jackrussel.jpg';
+import labrador from '../assets/dogs/labrador.jpg';
 
-const images = {
-  beagle: beagleImage,
-  frenchbulldog: frenchbulldogImage,
-  jackrussel: jackrusselImage,
-  labrador: labradorImage,
-};
+// const images = {
+//   beagle: beagleImage,
+//   frenchbulldog: frenchbulldogImage,
+//   jackrussel: jackrusselImage,
+//   labrador: labradorImage,
+// };
 
 const cards = [
   {
     id: 1,
-    img: images.frenchbulldog,
+    img: frenchbulldog,
     breed: 'French bulldog',
     color: 'Blue',
     age: '1 month',
@@ -24,7 +24,7 @@ const cards = [
   },
   {
     id: 2,
-    img: images.labrador,
+    img: labrador,
     breed: 'Labrador',
     color: 'Chocolate',
     age: '2 month',
@@ -33,7 +33,7 @@ const cards = [
   },
   {
     id: 3,
-    img: images.jackrussel,
+    img: jackrussel,
     breed: 'Jackrussel',
     color: 'Bicolor',
     age: '7 month',
@@ -42,7 +42,7 @@ const cards = [
   },
   {
     id: 4,
-    img: images.beagle,
+    img: beagle,
     breed: 'Beegle',
     color: 'Tricolor',
     age: '0,5 month',
