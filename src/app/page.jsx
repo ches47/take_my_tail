@@ -1,13 +1,9 @@
-import Cards from '../../components/cards/cards';
-import Footer from '../../components/footer/Footer';
-import Header from '../../components/header/Header';
+import Cards from '../components/cards/Cards';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <div className="home">
       <Cards />
-      <Footer />
     </div>
   );
 }
